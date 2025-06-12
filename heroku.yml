@@ -1,6 +1,7 @@
 build:
   docker:
     web: Dockerfile
-
+  config:
+    PATH: /
 run:
   web: python3 -m FallenRobot
